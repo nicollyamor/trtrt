@@ -32,10 +32,10 @@ function draw() {
   // Adiciona o nome "Rafael" centralizado
   ctx.fillStyle = '#00FF00'; // Cor verde
   ctx.font = 'bold 24px monospace';
-  const textWidth = ctx.measureText('Rafael').width;
+  const textWidth = ctx.measureText('nicolly').width;
   const x = (canvas.width - textWidth) / 2;
   const y = canvas.height / 2;
-  ctx.fillText('Rafael Assis Santos', x, y);
+  ctx.fillText('nicolly amorim ', x, y);
 
   requestAnimationFrame(draw);
 }
